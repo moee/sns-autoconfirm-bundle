@@ -3,7 +3,7 @@ Automatic Confirmation of AWS SNS HTTP(s) subscription messages with Symfony
 
 # Warning: Don't use this in production (yet).
 
-This is a proof of concept in an alpha stage. It is completely lacking authentication. So please feel free to experiement with it and expand it, but **don't use this in production**.
+This is a proof of concept in an alpha stage. It is lacking signature verification (#1) and thus potentially insecure. Please feel free to experiement with it and expand it, but **don't use this in production**.
 
 # Usage
 
