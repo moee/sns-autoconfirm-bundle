@@ -1,4 +1,4 @@
-# symfony-sns-autoconfirm
+# sns-autoconfirm-bundle
 Automatic Confirmation of AWS SNS HTTP(s) subscription messages with Symfony
 
 # Warning: Don't use this in production (yet).
