@@ -1,6 +1,6 @@
 {
     "name": "moee/sns-autoconfirm-bundle",
-    "description": "Automatic Confirmation of AWS SNS HTTP(s) subscription messages with Symfony",
+    "description": "Automatic subscription confirmation of AWS SNS HTTP(s) endpoints with Symfony (alpha)",
     "type": "library",
     "license": "MIT",
     "authors": [
