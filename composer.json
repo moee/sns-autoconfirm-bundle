@@ -1,0 +1,21 @@
+{
+    "name": "moee/sns-autoconfirm-bundle",
+    "description": "Automatic Confirmation of AWS SNS HTTP(s) subscription messages with Symfony",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Osl",
+            "email": "moee@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Moee\\" : "./src/Moee" }
+    },
+    "minimum-stability": "alpha",
+    "require": {
+        "symfony/http-kernel": "^3.2",
+        "symfony/dependency-injection": "^3.2",
+        "doctrine/annotations": "^1.3"
+    }
+}
