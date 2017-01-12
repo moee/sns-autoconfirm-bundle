@@ -1,4 +1,0 @@
-services:
-#    moee_sns_autoconfirm.example:
-#        class: Moee\SnsAutoconfirmBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
