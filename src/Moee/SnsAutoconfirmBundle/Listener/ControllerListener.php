@@ -23,7 +23,6 @@ class ControllerListener
         $this->whitelist = $whitelist;
     }
 
-
     public function onKernelController(FilterControllerEvent $event)
     {
         if (!$this->isAwsSubscriptionRequest()) {
@@ -125,7 +124,7 @@ class ControllerListener
 
         $context = stream_context_create(['http' => [
            'ignore_errors' => true,
-           'timeout' => 0.1
+           'timeout' => 5 
         ]]);
 
         try {
