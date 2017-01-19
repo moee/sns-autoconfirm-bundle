@@ -1,0 +1,9 @@
+parameters:
+  sns_listener_whitelist:
+    - "^https://sns.[a-z0-9-]{2,20}.amazonaws.com/"
+services:
+  moee_sns_autoconfirm.sns_listener:
+    class: Moee\SnsAutoconfirmBundle\Listener\ControllerListener
+    arguments: ['@annotation_reader', '@logger', "%sns_listener_whitelist%"]
+    tags:
+      - { name: kernel.event_listener, priority: 10, event: kernel.controller, method:onKernelController }
